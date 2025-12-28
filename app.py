@@ -5,7 +5,7 @@ from urllib.parse import unquote
 app = Flask(__name__)
 
 # Backend web thật (web-victim)
-BACKEND_URL = "http://web-victim:5000"
+BACKEND_URL = "http://testphp.vulnweb.com"
 
 # Danh sách pattern tấn công (SQLi, XSS, CMD...)
 BAD_KEYWORDS = [
